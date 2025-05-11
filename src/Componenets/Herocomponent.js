@@ -19,7 +19,7 @@ const HeroSection = () => {
           </p>
           <div className="hero-buttons">
             <button className="btn-primary">Donate Now</button>
-            <button className="btn-secondary">Register as Volunteer</button>
+            <button className="btn-primary">Register as Volunteer</button>
           </div>
         </div>
         <div className="hero-right">
