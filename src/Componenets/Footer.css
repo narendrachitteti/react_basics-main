@@ -1,0 +1,49 @@
+
+.impact-section {
+  background-color: #1e4d65;
+  background-image: url('../assets/WaveBG.png');
+
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 25px 20px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+
+.impact-content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.impact-content p {
+  font-size: 16px;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.impact-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.impact-box {
+  max-width: 200px;
+}
+
+.impact-box h3 {
+  font-size: 32px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.impact-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}

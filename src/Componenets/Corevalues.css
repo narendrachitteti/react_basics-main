@@ -1,0 +1,59 @@
+.core-values-section {
+  padding: 4rem 2rem;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.cv-header h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.cv-header p {
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.6;
+}
+
+.cv-cards {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cv-card {
+  background: #fdfdfd;
+  border: 1px solid #eee;
+  border-radius: 1rem;
+  padding: 2rem;
+  width: 280px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.cv-card:hover {
+  transform: translateY(-5px);
+}
+
+.cv-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.cv-card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.cv-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
