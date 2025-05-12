@@ -1,7 +1,6 @@
 import React from 'react';
 import './Footer.css'; // Make sure the CSS file name matches exactly
 
-
 const Footer = () => {
   return (
     <section className="impact-section">
