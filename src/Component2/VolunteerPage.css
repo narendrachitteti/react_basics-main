@@ -10,9 +10,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 15px; /* Reduced padding */
     border-radius: 12px;
-  }
+    width: 90%; /* Reduce width to make it smaller */
+    height: 160px; /* Adjust the height */
+    margin: auto; /* Centers the banner */
+}
+
   
   .banner-content {
     max-width: 60%;
@@ -50,7 +54,13 @@
     color: white;
     cursor: pointer;
     font-weight: 500;
-  }
+    margin-right: auto; /* Pushes it to the left */
+    display: block; /* Ensures it behaves like a block element */
+    width: fit-content; /* Keeps button width dynamic */
+}
+
+  
+
   
   .banner-img {
     width: 150px;

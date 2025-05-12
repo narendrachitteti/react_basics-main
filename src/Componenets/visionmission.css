@@ -1,8 +1,13 @@
 .vision-mission-section {
-  padding: 4rem 2rem;
-  max-width: 1200px;
+  padding: 2rem 2rem; /* Reduces the vertical padding to make it shorter */
+  max-width: 1100px;
   margin: auto;
+  background-color: #f4f4f4;
+  /* Optional: set a max-height or min-height */
+  height: auto; /* If you want to explicitly set height */
+  min-height: 500px; /* Optional: Adjust this to control the minimum height */
 }
+
 
 .vision-mission-block {
   display: flex;
@@ -58,7 +63,7 @@
   position: absolute;
   width: 90%;
   height: 90%;
-  background-color: #f3e4da;
+  
   border-radius: 2rem;
   z-index: 1;
   top: 10px;
@@ -73,4 +78,6 @@
   z-index: 2;
   object-fit: cover;
 }
+
+
 

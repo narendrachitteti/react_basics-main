@@ -13,7 +13,7 @@ const Header = () => {
           <nav className="nav-menu">
             <ul>
               <li className="dropdown">
-                <a href="#">About <span className="arrow">▼</span></a>
+                <a href="#">About <span className="arrow"></span></a>
               </li>
               <li><a href="#" className="highlight">Donate</a></li>
               <li><a href="#">Volunteer</a></li>
