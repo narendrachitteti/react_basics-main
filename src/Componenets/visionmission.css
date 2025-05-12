@@ -5,7 +5,6 @@
   margin: auto;
   background-color: #f4f4f4;
   height: auto;
-  min-height: 500px;
 }
 
 /* Flex layout for each block */
@@ -13,22 +12,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 4rem;
   gap: 2rem;
   flex-wrap: wrap;
 }
 
-.vm-text,
+/* Text and image wrapper */
+.vm-text, 
 .vm-image-wrapper {
   flex: 1;
-  width: 50%; /* Makes text and image blocks equal width */
-  text-align: left;
+  min-width: 320px;
 }
 
 /* Styling for text content */
 .vm-text {
   max-width: 500px;
-  margin-left: 100px; /* Balanced left margin */
+  text-align: left;
+  margin-left: 100px;
 }
 
 .vm-text h2 {
@@ -40,10 +39,9 @@
 .vm-text p {
   font-size: 1rem;
   line-height: 1.6;
-  margin-bottom: 1.2rem;
-  color: #333;
 }
 
+/* Read More link */
 .read-more {
   color: #f6a800;
   font-weight: bold;
@@ -54,9 +52,8 @@
   text-decoration: underline;
 }
 
-/* Image styling */
+/* Image wrapper */
 .vm-image-wrapper {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,28 +63,45 @@
   width: 100%;
   max-width: 320px;
   border-radius: 1rem;
-  position: relative;
-  z-index: 2;
   object-fit: cover;
 }
 
-/* Background image constraints for Mission section */
-.vm-image-wrapper.with-bg {
-  background-image: url('../assets/Misn_BGImage.png'); /* Replace with your actual image path */
-  background-size: contain; /* Keeps the image within constraints */
-  background-position: left bottom; /* Ensures it stops at the image corner */
-  background-repeat: no-repeat;
-  width: 100%;
-  height: auto; /* Dynamically adjust height */
+/* Responsive Design */
+@media (max-width: 768px) {
+  .vision-mission-block {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .vm-text {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .vm-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .vm-text p {
+    font-size: 0.9rem;
+  }
+
+  .vm-image {
+    max-width: 280px;
+  }
 }
 
-/* Shape overlay effect */
-.image-bg-shape {
-  position: absolute;
-  width: 90%;
-  height: 90%;
-  border-radius: 2rem;
-  z-index: 1;
-  top: 10px;
-  left: 10px;
+@media (max-width: 480px) {
+  .vm-text h2 {
+    font-size: 1.6rem;
+  }
+
+  .vm-text p {
+    font-size: 0.85rem;
+  }
+
+  .vm-image {
+    max-width: 260px;
+  }
 }
