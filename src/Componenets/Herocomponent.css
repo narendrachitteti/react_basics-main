@@ -90,19 +90,20 @@
   display: flex;
   justify-content: center;
 }
-
 .image-background {
-  background-color: #f5f5f5;
-  padding: 30px;
-  border-radius: 16px;
-  transform: rotate(8deg);
-  max-width: 350px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #d4d4d4; /* Closely matching the background color */
+  padding: 6px; /* Minimized padding */
+  border-radius: 12px;
+  transform: none; /* Keeping the background straight */
+  max-width: 220px; /* Shrinking background size further */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.06); /* Soft shadow */
 }
 
 .image-background img {
-  width: 100%;
+  width: 120%; /* Expanding image further */
+  max-width: 420px; /* Making the image larger */
   height: auto;
   border-radius: 10px;
   display: block;
+  transform: rotate(8deg); /* Keeping the tilted effect */
 }

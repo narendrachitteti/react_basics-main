@@ -6,7 +6,7 @@ import OurMission from '../assets/OurMission.png';
 const VisionMission = () => {
   return (
     <section className="vision-mission-section">
-      {/* Vision */}
+      {/* Vision Section */}
       <div className="vision-mission-block">
         <div className="vm-text">
           <h2>Our Vision</h2>
@@ -23,7 +23,7 @@ const VisionMission = () => {
         </div>
       </div>
 
-      {/* Mission */}
+      {/* Mission Section */}
       <div className="vision-mission-block reverse">
         <div className="vm-image-wrapper with-bg">
           <div className="image-bg-shape" />
