@@ -15,7 +15,7 @@ const HeroSection = () => {
           <p className="hero-description">
             Your donation can help provide food to<br/>
             people who are struggling to feed<br/> 
-            themselves and their families
+            themselves and their families.
           </p>
           <div className="hero-buttons">
             <button className="btn-primary">Donate Now</button>
